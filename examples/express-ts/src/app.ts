@@ -4,7 +4,7 @@ import * as morgan from 'morgan';
 import * as express from 'express';
 import * as bodyParser from 'body-parser';
 import registerApi from './api';
-import {Model} from 'objection';
+import { Model } from 'objection';
 
 const knexConfig = require('../knexfile');
 const promiseRouter = require('express-promise-router');
